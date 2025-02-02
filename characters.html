@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Поднятие, уровеня, аниме, манга, веб-роман, персонажи, история">
+    <meta name="description" content="Описание на странице браузера">
+    <title>Персонажи | Поднятия уровня в одиночку</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="эмблема.png" alt="Логотип" class="logo">
+            </a>
+        </div>
+        <h1 class="page-title">Поднятие уровня в одиночку</h1>
+    </header>
+
+    <main>
+        <nav class="horizontal-menu">
+            <ul>
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="characters.html">Персонажи</a></li>
+            </ul>
+        </nav>
+        <button id="prevBtn" onclick="showPrev()"><</button>
+        <section class="character">
+            <div class="card-container" id="cardsContainer">
+                <div class="card">
+                    <img src="Сон Джин Ву1.jpg" alt="Сон Джин Ву" class="character-img">
+                    <h3>Sung Jinwoo</h3>
+                    <p>Краткое описание персонажа.</p>
+                </div>
+            
+                <div class="card">
+                    <img src="Джин-а.jpg" alt="Сон Джин А" class="character-img">
+                    <h3>Sung Jinah</h3>
+                    <p>Краткое описание персонажа.</p>
+                </div>
+                
+            </div>
+        </section>
+        <button id="nextBtn" onclick="showNext()">></button>
+    </main>
+    <script src="script"></script>
+</body>
+</html>
